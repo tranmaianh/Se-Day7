@@ -28,5 +28,17 @@ Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản 
 - Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin: họ tên và địa chỉ khách hàng, số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán.
 
 - Khách hàng có thể hủy đặt phòng (miên phí) nếu hủy trước ngày đến. Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo.
-*### 1. Mục tiêu*
-*## 2. Mục đích*
+### 1. Mục tiêu của đề tài:
+- Xây dựng một hệ thống phần mềm quản lí khách sạn chỉ có nhân viên lễ tân, nhân viên bán hàng, quản lí khách sạn được sử dụng.
+- Hỗ trợ nhân viên lễ tân có thẻ tìm phòng trống theo yêu cầu trực tiếp của khách, checkin cho khách đã đặt phòng hoặc đặt phòng trực tiếp, checkout cho khách và in hóa đơn thanh toán cho khách.
+-	Nhân viên bán vé có thể dễ dàng cập nhật khách hàng gọi điện thoại đến đặt vé.
+-	Hệ thống hỗ trợ phân quyền người dùng, đảm bảo tính bảo mật, an toàn của hệ thống.
+-	Giúp nhân viên bán hàng có thẻ tìm phòng trông và đặt phòng theo yêu cầu của khách.
+- Quản lí có thể : thêm/sửa/xóa thông tin phòng, xem các báo cáo doanh thu theo thời gian/theo phòng/theo loại phòng, xem báo cáo khách hàng đặt nhiều theo thời gian/theo nguồn gốc khách hàng.
+### 2. Phạm vi đề tài
+- Xây dựng một phần mềm quản lí khách sạn cho nhân viên lễ tân và nhân viên bán hàng , quản lí khách sạn được sử dụng.
+- Mỗi khách hàng có thể đặt/ ở nhiều phòng khác nhau tại những thời điểm khác nhau, khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng.
+- Khách hàng có thể hủy đặt phòng (miễn phí) nếu hủy trước ngày đến. Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu và danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo.
+- Người quản lí khách sạn: quản lí thông tin phòng và khách sạn, tạo và xem các loại báo cáo.
+- Nhân viên tiếp tân: giao dịch với khách hàng qua điện thoại đặt chỗ hoặc hủy đặt chỗ. 
+
