@@ -1,4 +1,4 @@
-*Bài Toán: Quản lý khách sạn*
+**- Bài Toán: Quản lý khách sạn**
 Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản lí khách sạn với yêu cầu như sau (đây có thể coi như là một bản mô tả yêu cầu của khách hàng bằng ngôn ngữ tự nhiên):
 
 - Phần mềm dạng ứng dụng cho máy tính cá nhân, chỉ có nhân viên lễ tân, nhân viên bán hàng, quản lí khách sạn được sử dụng
@@ -45,33 +45,33 @@ Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản 
 - Thanh toán cho khách hàng.
 - Quản lý báo cáo : xem báo cáo, tạo hóa đơn,...
 ### 2. Business Objectives
-*- Quản lý thông tin phòng,thông tin khách sạn.*
+**- Quản lý thông tin phòng,thông tin khách sạn.**
  <ul>
   <li>Tìm đặt phòng theo yêu cầu</li>
   <li>Thêm/sửa/xóa thông tin phòng</li>
   <li>Thông tin về khách sạn bao gồm : tên, địa chỉ, số sao, mô tả (bao gồm mô tả bằng text và bằng hình ảnh). </li>
   <li> Trong khách sạn có nhiều phòng, mỗi phòng được mô tả bằng các thông tin: tên phòng (duy nhất, để phân biệt các phòng), loại phòng, giá niêm yết, các loại dịch vụ đi kèm, mô tả phòng.</li>
   </ul>
-  *- Quản lý thông tin khách hàng.*
+**- Quản lý thông tin khách hàng.**
   - Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:
  <ul>
   <li>Số CMND (số passport nếu là người nước ngoài), loại giấy tùy thân (CMND, passport)</li>
   <li>Họ tên đầy đủ, địa chỉ, số điện thoại, ghi chú về phục vụ đặc biệt như cho người khuyết tật, ăn chay...</li>
   </ul>
-  *- Đặt phòng, hủy đặt phòng.*
+ **- Đặt phòng, hủy đặt phòng.**
  <ul>
   <li>Khách hàng chỉ có thể đặt phòng nếu phòng đó còn trống trong suốt thời gian khách hàng muốn đặt. Khách hàng có thể hủy đặt phòng (miên phí) nếu hủy trước ngày đến</li>
   <li>Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo Khách hàng có thể đặt nhiều phòng</li>
   </ul>
   </ul>
-*- Thanh toán cho khách hàng.*
+  **- Thanh toán cho khách hàng.**
 - Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:
  <ul>
   <li>Họ tên và địa chỉ khách hàng</li>
   <li>Số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán</li>
   <li>Khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng</li>
   </ul>
- *- Quản lý báo cáo:*
+ **- Quản lý báo cáo:**
   <ul>
   <li>Xem báo cáo</li>
   <li> tạo báo cáo</li>
