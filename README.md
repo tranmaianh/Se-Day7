@@ -52,9 +52,9 @@
  <li>Thông tin về khách sạn bao gồm : tên, địa chỉ, số sao, mô tả (bao gồm mô tả bằng text và bằng hình ảnh). </li>
  <li> Trong khách sạn có nhiều phòng, mỗi phòng được mô tả bằng các thông tin: tên phòng (duy nhất, để phân biệt các phòng), loại phòng, giá niêm yết, các loại dịch vụ đi kèm, mô tả phòng.</li>
  </ul>
-**- Quản lý thông tin khách hàng.**
-- Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:
+ **- Quản lý thông tin khách hàng.**
  <ul>
+ <li>- Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:</li>
  <li>Số CMND (số passport nếu là người nước ngoài), loại giấy tùy thân (CMND, passport)</li>
  <li>Họ tên đầy đủ, địa chỉ, số điện thoại, ghi chú về phục vụ đặc biệt như cho người khuyết tật, ăn chay...</li>
  </ul>
