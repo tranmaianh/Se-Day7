@@ -46,7 +46,7 @@
 - Thanh toán cho khách hàng.
 - Quản lý báo cáo : xem báo cáo, tạo hóa đơn,...
 ### 2. Business Objectives
-**Quản lý thông tin phòng,thông tin khách sạn.**
+**2.1 Quản lý thông tin phòng,thông tin khách sạn.**
  <ul>
  <li>Tìm đặt phòng theo yêu cầu</li>
  <li>Thêm/sửa/xóa thông tin phòng</li>
@@ -54,20 +54,20 @@
  <li> Trong khách sạn có nhiều phòng, mỗi phòng được mô tả bằng các thông tin: tên phòng (duy nhất, để phân biệt các phòng), loại phòng, giá niêm yết, các loại dịch vụ đi kèm, mô tả phòng.</li>
  </ul>
  
-**Quản lý thông tin khách hàng.**
+**2.2 Quản lý thông tin khách hàng.**
  <ul>
  <li>*Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:*</li>
  <li>Số CMND (số passport nếu là người nước ngoài), loại giấy tùy thân (CMND, passport)</li>
  <li>Họ tên đầy đủ, địa chỉ, số điện thoại, ghi chú về phục vụ đặc biệt như cho người khuyết tật, ăn chay...</li>
  </ul>
  
- **Đặt phòng, hủy đặt phòng.**
+ **2.3 Đặt phòng, hủy đặt phòng.**
  <ul>
  <li>Khách hàng chỉ có thể đặt phòng nếu phòng đó còn trống trong suốt thời gian khách hàng muốn đặt. Khách hàng có thể hủy đặt phòng (miên phí) nếu hủy trước ngày đến</li>
  <li>Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo Khách hàng có thể đặt nhiều phòng</li>
  </ul>
  
-**Thanh toán cho khách hàng.**
+**2.4 Thanh toán cho khách hàng.**
  <ul>
  <li>*Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:*</li>
  <li>Họ tên và địa chỉ khách hàng</li>
@@ -75,7 +75,7 @@
  <li>Khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng</li>
  </ul>
  
-**Quản lý báo cáo:**
+**2.5 Quản lý báo cáo:**
  <ul>
  <li>Xem báo cáo</li>
  <li> tạo báo cáo</li>
