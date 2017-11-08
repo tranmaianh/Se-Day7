@@ -58,8 +58,8 @@ Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản 
   <li>Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo Khách hàng có thể đặt nhiều phòng</li>
   </ul>
   </ul>
--Thanh toán cho khách hàng.
-- Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:
+#- Thanh toán cho khách hàng.
+#- Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:
  <ul>
   <li>Họ tên và địa chỉ khách hàng</li>
   <li>Số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán</li>
