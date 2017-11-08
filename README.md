@@ -56,7 +56,7 @@
  
 **Quản lý thông tin khách hàng.**
  <ul>
- <li>- Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:</li>
+ <li>*Mỗi khách hàng, khi đến ở hoặc đặt phòng, sẽ được lưu các thông tin bao gồm:*</li>
  <li>Số CMND (số passport nếu là người nước ngoài), loại giấy tùy thân (CMND, passport)</li>
  <li>Họ tên đầy đủ, địa chỉ, số điện thoại, ghi chú về phục vụ đặc biệt như cho người khuyết tật, ăn chay...</li>
  </ul>
@@ -68,8 +68,8 @@
  </ul>
  
 **Thanh toán cho khách hàng.**
-*Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:*
  <ul>
+ <li>*Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:*</li>
  <li>Họ tên và địa chỉ khách hàng</li>
  <li>Số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán</li>
  <li>Khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng</li>
