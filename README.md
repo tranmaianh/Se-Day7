@@ -1,4 +1,4 @@
-*Bài Toán*
+*Bài Toán: Quản lý khách sạn*
 Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản lí khách sạn với yêu cầu như sau (đây có thể coi như là một bản mô tả yêu cầu của khách hàng bằng ngôn ngữ tự nhiên):
 
 - Phần mềm dạng ứng dụng cho máy tính cá nhân, chỉ có nhân viên lễ tân, nhân viên bán hàng, quản lí khách sạn được sử dụng
@@ -35,10 +35,40 @@ Khách hàng đến dặt hàng chúng ta xây dựng một phần mềm quản 
 -	Hệ thống hỗ trợ phân quyền người dùng, đảm bảo tính bảo mật, an toàn của hệ thống.
 -	Giúp nhân viên bán hàng có thẻ tìm phòng trông và đặt phòng theo yêu cầu của khách.
 - Quản lí có thể : thêm/sửa/xóa thông tin phòng, xem các báo cáo doanh thu theo thời gian/theo phòng/theo loại phòng, xem báo cáo khách hàng đặt nhiều theo thời gian/theo nguồn gốc khách hàng.
-### 2. Phạm vi đề tài
-- Xây dựng một phần mềm quản lí khách sạn cho nhân viên lễ tân và nhân viên bán hàng , quản lí khách sạn được sử dụng.
-- Mỗi khách hàng có thể đặt/ ở nhiều phòng khác nhau tại những thời điểm khác nhau, khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng.
-- Khách hàng có thể hủy đặt phòng (miễn phí) nếu hủy trước ngày đến. Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu và danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo.
+- Mỗi khách hàng có thể đặt/ ở nhiều phòng khác nhau tại những thời điểm khác nhau, khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng.Khách hàng có thể hủy đặt phòng (miễn phí) nếu hủy trước ngày đến. Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu và danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo.
 - Người quản lí khách sạn: quản lí thông tin phòng và khách sạn, tạo và xem các loại báo cáo.
 - Nhân viên tiếp tân: giao dịch với khách hàng qua điện thoại đặt chỗ hoặc hủy đặt chỗ. 
-
+### 2. Goals
+- Quản lý thông tin khách hàng.
+- Quản lý thông tin phòng, khách sạn.
+- Đặt phòng, hủy đặt phòng.
+- Thanh toán cho khách hàng.
+- Quản lý báo cáo : xem báo cáo, tạo hóa đơn,...
+### 2. Business Objectives
+- Quản lý thông tin phòng,thông tin khách sạn
+ <ul>
+  <li>Tìm đặt phòng theo yêu cầu</li>
+  <li>Thêm/sửa/xóa thông tin phòng</li>
+  <li>Thông tin về khách sạn bao gồm : tên, địa chỉ, số sao, mô tả (bao gồm mô tả bằng text và bằng hình ảnh). </li>
+  <li> Trong khách sạn có nhiều phòng, mỗi phòng được mô tả bằng các thông tin: tên phòng (duy nhất, để phân biệt các phòng), loại phòng, giá niêm yết, các loại dịch vụ đi kèm, mô tả phòng.</li>
+  </ul>
+  - Đặt phòng, hủy đặt phòng.
+ <ul>
+  <li>Khách hàng chỉ có thể đặt phòng nếu phòng đó còn trống trong suốt thời gian khách hàng muốn đặt. Khách hàng có thể hủy đặt phòng (miên phí) nếu hủy trước ngày đến</li>
+  <li>Nếu khách hàng hủy sau ngày đặt thì khách hàng bị lưu vào danh sách đen và có thể bị từ chối đặt phòng trong các lần tiếp theo Khách hàng có thể đặt nhiều phòng</li>
+  </ul>
+  </ul>
+  -Thanh toán cho khách hàng.
+  - Mỗi lần thanh toán, lễ tân sẽ in hóa đơn cho lần thanh toán đó bao gồm các thông tin:
+ <ul>
+  <li>Họ tên và địa chỉ khách hàng</li>
+  <li>Số phòng, ngày đến, ngày đi, giá phòng, các dịch vụ đi kèm (mỗi dịch vụ bao gồm tên dịch vụ, đơn vị tính, đơn giá, tổng tiền), số tiền thanh toán</li>
+  <li>Khách hàng có thể thanh toán nhiều lần cho đến ngày trả phòng</li>
+  </ul>
+  - Quản lý báo cáo:
+  <ul>
+  <li>Xem báo cáo</li>
+  <li> tạo báo cáo</li>
+  <li>Báo cáo thu chi Báo cáo số lượng khách hàng theo tháng/quý/năm....</li>
+  </ul>
+  
